@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item android:id="@+id/nav_gallery"
+            android:icon="@drawable/imagegallery"
+            android:title="Gallery" />
+
+        <item android:id="@+id/nav_donations"
+            android:icon="@drawable/charity"
+            android:title="Donation"/>
+
+        <item android:id="@+id/nav_volunteers"
+            android:icon="@drawable/work_icon"
+            android:title="Volunteer Application"/>
+
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/information"
+            android:title="About Us"/>
+
+        <item android:id="@+id/nav_chat"
+            android:icon="@drawable/icon_message_2"
+            android:title="Chat"/>
+
+        <item android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/appicon"
+        android:label="Mvula Trust Mobile"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MvulaTrustMobileApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".GalleryPage"
+            android:exported="false" />
+        <activity
+            android:name=".UploadDocuments"
+            android:exported="false" />
+        <activity
+            android:name=".reset_password"
+            android:exported="false" />
+        <activity
+            android:name=".activevolunteers"
+            android:exported="false" />
+        <activity
+            android:name=".UserCustomize"
+            android:exported="false" />
+        <activity
+            android:name=".UserSettings"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateAdminPassword"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AccountManagement"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccountSection"
+            android:exported="false" />
+        <activity
+            android:name=".AdministrationMenu"
+            android:exported="false" />
+        <activity
+            android:name=".IncomingVolunteers"
+            android:exported="false" />
+        <activity
+            android:name=".IncomingDonations"
+            android:exported="false" />
+        <activity
+            android:name=".UserDelete"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationSuccessWindow"
+            android:exported="false" /> <!-- /*<activity -->
+        <!-- android:name=".User_homescreen" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".SignUp_Page" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".LoginIn" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".Program5"
+            android:exported="false" />
+        <activity
+            android:name=".Program4"
+            android:exported="false" />
+        <activity
+            android:name=".Program3"
+            android:exported="false" />
+        <activity
+            android:name=".Program2"
+            android:exported="false" />
+        <activity
+            android:name=".Program1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+    </application>
+
+</manifest>
