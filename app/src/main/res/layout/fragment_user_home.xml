@@ -75,8 +75,8 @@
             android:textStyle="normal" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="151dp"
+            android:layout_height="67dp"
             android:layout_alignEnd="@+id/textView0"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="-150dp"
@@ -91,9 +91,10 @@
                 android:src="@drawable/icon_message_2" />
 
             <ImageButton
+                android:scaleType="fitXY"
                 android:id="@+id/gallery"
                 android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="end"
                 android:src="@drawable/imagegallery" />
         </LinearLayout>

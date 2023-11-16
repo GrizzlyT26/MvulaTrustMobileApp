@@ -60,25 +60,25 @@ class Donation : Fragment() {
 
                 cardView1.setOnClickListener {
                     // Set the selected amount when cardView1 is clicked
-                    selectedAmount = "10.00"
+                    selectedAmount = "50.00"
                     amount.setText(selectedAmount)
                 }
 
                 cardView2.setOnClickListener {
                     // Set the selected amount when cardView2 is clicked
-                    selectedAmount = "50.00"
+                    selectedAmount = "150.00"
                     amount.setText(selectedAmount)
                 }
 
                 cardView3.setOnClickListener {
                     // Set the selected amount when cardView3 is clicked
-                    selectedAmount = "100.00"
+                    selectedAmount = "200.00"
                     amount.setText(selectedAmount)
                 }
 
                 cardView4.setOnClickListener {
                     // Set the selected amount when cardView4 is clicked
-                    selectedAmount = "200.00"
+                    selectedAmount = "500.00"
                     amount.setText(selectedAmount)
                 }
         cardView5.setOnClickListener {

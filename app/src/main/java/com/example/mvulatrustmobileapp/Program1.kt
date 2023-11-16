@@ -21,7 +21,7 @@ class Program1 : AppCompatActivity() {
                 .commit()
         }
 
-        val donate_btn = findViewById<Button>(R.id.donate_btn)
+        /*val donate_btn = findViewById<Button>(R.id.donate_btn)
         donate_btn.setOnClickListener {
             val fragment1 = Donation()
             supportFragmentManager.beginTransaction()
@@ -35,6 +35,6 @@ class Program1 : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, fragment2)
                 .commit()
-        }
+        }*/
     }
 }
